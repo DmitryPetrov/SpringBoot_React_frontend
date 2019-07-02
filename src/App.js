@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import WelcomeWindow from './WelcomeWindow.js'
+import WelcomeWindowContainer from './WelcomeWindowContainer.js'
 
 function App() {
   return (
     <div className="App">
       <h1>Spring boot + React</h1>
-      <WelcomeWindow />
+      <WelcomeWindowContainer />
     </div>
   );
 }
